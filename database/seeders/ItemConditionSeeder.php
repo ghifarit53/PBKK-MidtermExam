@@ -13,5 +13,16 @@ class ItemConditionSeeder extends Seeder
      */
     public function run(): void
     {
+        ItemCondition::create([
+            "name" => "Good",
+        ]);
+
+        ItemCondition::create([
+            "name" => "Fair",
+        ]);
+
+        ItemCondition::create([
+            "name" => "Bad",
+        ]);
     }
 }
